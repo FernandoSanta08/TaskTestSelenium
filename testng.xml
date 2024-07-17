@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteReportCRUD">
+  <test name="Create Task">
+    <classes>
+      <class name="com.castor.crudtest.CreateTask"/>
+    </classes>
+  </test>
+  <test name="Update Task">
+    <classes>
+      <class name="com.castor.crudtest.UpdateTask"/>
+    </classes>
+  </test>
+  <test name="Delete Task">
+    <classes>
+      <class name="com.castor.crudtest.DeleteTask"/>
+    </classes>
+  </test>
+</suite>
